@@ -1,0 +1,10 @@
+{
+    "mappings": {
+        "properties": {
+            "boxes": {"type": "text"},
+            "img_name": {"type": "text"},
+            "scores": {"type": "text"},
+            "captions": {"type": "text"}
+        }
+    }
+}
