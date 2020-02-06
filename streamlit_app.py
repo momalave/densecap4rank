@@ -17,17 +17,14 @@ st.title('DenseCap Video Rank')
 
 sentence = st.text_input('Search:')
 if sentence:
-    st.write(my_model.predict(sentence))
-
-st.subheader('Results')
-
-
-value = st.selectbox("",["one", "two", "three"])
+	st.subheader('Results')
+	st.write('You searched: ' + str(sentence))
+	value = st.selectbox("",["one", "two", "three"])
 #value = st.sidebar.selectbox("Hello", ["one", "two", "three"])
 #st.write(value)
 
 
-submit = st.button('Play Video')
+	submit = st.button('Play Video')
 #if submit:
     #requests.post('http://127.0.0.1:8000/letters', json=new_candidates)
 
