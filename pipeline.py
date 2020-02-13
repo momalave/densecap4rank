@@ -13,6 +13,7 @@
 
 # 3. Run the frames through the model (on AWS)
 # call densecap
+# vi ~/.bashrc
 # s3fs -o allow_other -o use_cache=/tmp/cache3 -o passwd_file=/root/.passwd-s3fs densecap /s3mnt
 # th run_model.lua -input_dir /s3mnt/imgs/
 # python2.7 -m SimpleHTTPServer 8181
