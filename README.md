@@ -10,7 +10,7 @@ The pipeline for project involves:
 
 __Dense caption generation__
 
-The multiple captions (or dense captions) are generated using the dense captioning framework originally developed by Justin Johnson from Stanford University [Dense Captioning](https://www.google.com). The architecture uses....
+The multiple captions (or dense captions) are generated using the dense captioning framework originally developed by Justin Johnson from Stanford University [Dense Captioning](https://github.com/jcjohnson/densecap). The architecture uses....
 
 __Elasticsearch__
 
