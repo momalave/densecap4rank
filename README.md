@@ -8,6 +8,8 @@ The pipeline for project involves:
 3. Generate an Elasticsearch index using the metadata and generated captions.
 4. Recommend video content to users based on the ranking based a search query.
 
+![Image description](pipeline.png)
+
 __Dense caption generation__
 
 The multiple captions (or dense captions) are generated using the dense captioning framework originally developed by Justin Johnson from Stanford University ([Dense Captioning](https://github.com/jcjohnson/densecap)). The architecture uses (1) localization layer to determine region proposals, followed by (2) recognition network for region proposal updating and feature generation, and (3) LSTM language model for captions generation. By using a dense captioning model, more information is obtain for each frame compared to previous single caption implementations.
