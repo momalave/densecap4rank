@@ -8,7 +8,7 @@ The pipeline for project involves:
 3. Generate an Elasticsearch index using the metadata and generated captions.
 4. Recommend video content to users based on the ranking based a search query.
 
-![Dense captioning for video ranking pipeline.](pipeline.png)
+![pipeline_img](pipeline.png)
 
 __Dense caption generation__
 
