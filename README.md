@@ -10,10 +10,10 @@ The pipeline for project involves:
 
 __Dense caption generation__
 
-The multiple captions (or dense captions) are generated using the dense captioning framework originally developed by Justin Johnson from Stanford University [Dense Captioning](https://github.com/jcjohnson/densecap). The architecture uses (1) localization layer to determine region proposals, followed by (2) recognition network for region proposal updating and feature generation, and (3) LSTM language model for captions generation.
+The multiple captions (or dense captions) are generated using the dense captioning framework originally developed by Justin Johnson from Stanford University [Dense Captioning](https://github.com/jcjohnson/densecap). The architecture uses (1) localization layer to determine region proposals, followed by (2) recognition network for region proposal updating and feature generation, and (3) LSTM language model for captions generation. By using a dense captioning model, more information is obtain for each frame compared to previous single caption implementations.
 
 
 __Elasticsearch__
 
-Elasticsearch is a highly scalable and open-source platform which provides near real-time search. It uses an inverted index database which enable search using Term Frequency (tf) and Inverse Document Frequency (idf) to calculate the similarity between documents and a search query (i.e., Lucene's Practical Scoring Function).
+Elasticsearch is a highly scalable and open-source platform which provides near real-time search. It uses an inverted index database which enable search using Term Frequency (tf) and Inverse Document Frequency (idf) to calculate the similarity between documents and a search query (i.e., Lucene's Practical Scoring Function). The Elasticsearch server can be downloaded here [Elasticsearch](https://github.com/elastic/elasticsearch)
 
