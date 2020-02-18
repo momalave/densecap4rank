@@ -19,3 +19,5 @@ __Elasticsearch__
 
 Elasticsearch is a highly scalable and open-source platform which provides near real-time search. It uses an inverted index database which enable search using Term Frequency (tf) and Inverse Document Frequency (idf) to calculate the similarity between documents and a search query (i.e., Lucene's Practical Scoring Function). The Elasticsearch server can be downloaded [here](https://github.com/elastic/elasticsearch).
 
+__Requirements__
+insert here
