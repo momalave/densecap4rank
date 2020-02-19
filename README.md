@@ -21,4 +21,14 @@ Elasticsearch is a highly scalable and open-source platform which provides near 
 
 __Installation__
 
-...
+Install / update these dependencies by running the following:
+
+```bash
+luarocks install torch
+luarocks install nn
+luarocks install image
+luarocks install lua-cjson
+luarocks install https://raw.githubusercontent.com/qassemoquab/stnbhwd/master/stnbhwd-scm-1.rockspec
+luarocks install https://raw.githubusercontent.com/jcjohnson/torch-rnn/master/torch-rnn-scm-1.rockspec
+```
+
