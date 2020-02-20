@@ -21,7 +21,7 @@ Elasticsearch is a highly scalable and open-source platform which provides near 
 
 __Installation__
 
-Install / update these dependencies by running the following for the densecap model:
+Install / update these dependencies by running the following:
 
 ```bash
 Densecap model:
